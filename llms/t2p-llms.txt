@@ -1,0 +1,41 @@
+# T2P
+
+> T2P Co., Ltd. is a Bangkok, Thailand fintech (founded 2011) offering comprehensive payment solutions for enterprises: a white-label digital wallet platform, payment gateway, corporate card issuance, spend management, business escrow, and the DeepPocket consumer e-wallet. T2P has no public developer/API documentation surface as of this writing; integration is arranged directly with the company.
+
+## About
+- Company: T2P Co., Ltd. (DeepPocket)
+- Headquarters: Bangkok, Thailand
+- Founded: 2011
+- Backing: 500 Global (500 Startups / 500 TukTuks), Benchachinda Holding, DTAC Accelerate, J Ventures
+- Scale (self-reported): 10M+ customers, 30+ corporate clients
+
+## Products
+- Payment Gateway — accept cards, mobile wallets, and in-store payments
+- White-label Wallet — enterprise wallet platform with transaction management and business insights
+- Card Issuance — corporate/prepaid card programs
+- Spend Management — real-time card usage monitoring and spending controls
+- Escrow for Business — transaction-security / escrow services
+- DeepBlok — loyalty and customer-engagement program
+- DeepPocket — consumer e-wallet mobile app (top-ups, payments, global transfers; Wise integration for remittance)
+- T2P Flex — additional financial solutions
+
+## Links
+- Website: https://www.t2pco.com/en
+- DeepPocket: https://www.t2pco.com/en/t2p-deeppocket
+- DeepPocket (Google Play): https://play.google.com/store/apps/details?id=com.t2pco.deeppocket
+- DeepPocket (App Store): https://apps.apple.com/us/app/deeppocket/id1012822362
+- Trust / Compliance: https://trust.t2pco.com/
+- Privacy Policy: https://www.t2pco.com/en/t2p-privacy-policy
+- Cookie Policy: https://www.t2pco.com/en/t2p-cookie-policy
+- Contact / Support: https://www.t2pco.com/en/contact-us-t2p
+- Email: service@t2pco.com
+
+## Compliance
+- PCI DSS (per trust center https://trust.t2pco.com/)
+
+## Artifacts (API Evangelist network)
+- Trust Center: security/t2p-trust-center.yml
+- Domain Security: security/t2p-domain-security.yml
+
+## Notes
+- No public OpenAPI/AsyncAPI/GraphQL specification, developer portal, SDK, CLI, or MCP server was found. Spec-dependent artifacts (packages, scopes, authentication, errors, conventions, data-model, skills, overlays) are therefore not derivable and are intentionally omitted rather than fabricated.

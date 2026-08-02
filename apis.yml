@@ -1,7 +1,28 @@
 aid: t2p
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/t2p.png
 name: T2P
-description: T2P is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  T2P Co., Ltd. (DeepPocket) is a Bangkok, Thailand fintech founded in 2011 that
+  provides comprehensive payment solutions for enterprises of all sizes. Its
+  products include a payment gateway (cards, mobile wallets, in-store), a
+  white-label digital wallet platform, corporate and prepaid card issuance,
+  spend management with real-time controls, business escrow, the DeepBlok
+  loyalty program, and the DeepPocket consumer e-wallet app for top-ups,
+  payments, and global money transfers. T2P is backed by 500 Global, Benchachinda
+  Holding, DTAC Accelerate, and J Ventures, and reports serving 10M+ customers
+  and 30+ corporate clients. T2P holds PCI DSS compliance but publishes no public
+  developer API surface; integrations are arranged directly with the company.
 url: https://raw.githubusercontent.com/api-evangelist/t2p/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Payments
+- Payment Gateway
+- Digital Wallet
+- Card Issuing
+- E-Wallet
+- Escrow
+- Financial Services
+- Thailand
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://t2pco.com
+  url: https://www.t2pco.com/en
+- type: TrustCenter
+  url: security/t2p-trust-center.yml
+- type: Compliance
+  url: https://trust.t2pco.com/
+- type: DomainSecurity
+  url: security/t2p-domain-security.yml
+- type: LLMsTxt
+  url: llms/t2p-llms.txt
+- type: PrivacyPolicy
+  url: https://www.t2pco.com/en/t2p-privacy-policy
+- type: Support
+  url: https://www.t2pco.com/en/contact-us-t2p
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

@@ -1,0 +1,12 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trust.t2pco.com/
+url: https://trust.t2pco.com/
+certifications:
+- PCI DSS
+evidence:
+- source: https://trust.t2pco.com/
+  keywords:
+  - pci dss
+  - trust center
