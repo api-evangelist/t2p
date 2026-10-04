@@ -51,9 +51,8 @@ tags:
 - Payment Gateway
 - Digital Wallet
 - Card Issuing
-- E-Wallet
 - Escrow
-- Financial-Services
+- Financial Services
 - Thailand
 tags_raw:
 - Company
@@ -66,6 +65,7 @@ tags_raw:
 - Escrow
 - Financial Services
 - Thailand
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
